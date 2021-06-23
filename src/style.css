@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: no-repeat;
+}
+
+.movie{
+  color:white;
+}
+
+body{
+background-color: black;
+color: #fff;
+font-family: 'Limelight', cursive;
+}
+
+.container{
+  width: 1080px;
+  margin: 0 auto;
+}
+
+a,a:visited{
+  color: white;
+  text-decoration: none;
+}
+
+header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+color: white;
+padding: 24px 0;
+}
+
+.logo{
+  font-size: 32px;
+  font-weight: bold;
+  width: 30%;
+}
+
+.search{
+  width: 30%;
+}
+
+.movie-list{
+  padding: 40px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movie-item{
+  width: 23%;
+  margin-right: 2%;
+  margin-bottom: 32px;
+}
+
+.movie-item-inner{
+  padding: 12px;
+  background-color: black;
+  box-shadow: 0 0 16px rgba(255, 255, 255, 0.3);
+}
+
+.movie-item img{
+  width: 100%;
+  border-radius: 8px;
+}
+.movie-item h1{
+   font-size: 16px;
+   padding: 4px;
+   text-align: center;
+   flex-wrap: wrap;
+}
+.movie-item p{
+    font-size: 14px;
+    padding: 0 8px;
+}
+
+.upc-list{
+  padding: 40px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.links a:visited{
+  color: white;
+  text-decoration: none;
+}
+
+.links{
+  display: flex;
+  color: white;
+  text-decoration: none;
+  width:30%;
+  justify-content: center;
+}
+
+.links a{
+  margin: 0 12px;
+}
+
+
+.form{
+  width: 100%;
+  display: flex;
+}
+
+.form input{
+  flex:1;
+  height: 32px;
+  padding: 0 12px;
+  outline: none;
+  background-color: white;
+}
+
+.form button{
+  width: 120px;
+  background-color: white;
+}
+
+footer{
+  text-align: center;
+  padding: 0 24px;
+  color: white;
+  font-size: xx-large ;
+}
